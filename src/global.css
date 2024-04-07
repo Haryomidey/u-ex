@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a, input, button, textarea, select{
+  outline: none;
+}
+
+.text-gradient{
+    text-align: center;
+    background: linear-gradient(to right, #770190, #cd00f8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+
+}
+
+.home-gradient{
+  background: linear-gradient(158.86deg, #202020 -0.57%, #470A55 100.68%);
+}
+
+.bg-gradient{
+  background: linear-gradient(133.05deg, #61006D 17.21%, #D400C1 79.6%);
+}
+
+.bg-gradient-2{
+  background: linear-gradient(133.05deg, rgba(97, 0, 109, 0.15) 17.21%, rgba(212, 0, 193, 0.15) 79.6%);
+}
+
+.footer-gradient{
+  background: linear-gradient(133.05deg, rgba(2, 0, 2, 0.2) 17.21%, rgba(212, 0, 193, 0.2) 79.6%);
+}
