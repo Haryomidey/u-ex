@@ -42,7 +42,7 @@ const Home = () => {
                     <p className='text-sm font-light text-[#EFBCEE] py-4 max-w-[70%]'>
                         Swap, trade verified crypto tokens in real time, hassle free 
                     </p>
-                    <div className='mt-4 flex gap-8'>
+                    <div className='mt-4 flex gap-4'>
                         <button className="rounded-full px-6 py-3 bg-gradient text-xs tablet:text-sm">Connect Wallet</button>
                         <button className="rounded-full px-10 py-3 border border-[#7E0096] text-gradient text-xs tablet:text-sm bg">Trade</button>
                     </div>
